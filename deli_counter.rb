@@ -5,7 +5,8 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    puts array
+    array.each_with_index { |val,index| 
+      
   end
 end
 
