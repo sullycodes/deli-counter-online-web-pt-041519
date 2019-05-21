@@ -5,8 +5,10 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array.each_with_index do |val,index| puts {}}
-      
+    puts "The line is currently: #{array.each_with_index do 
+      |val,index| 
+      puts "#{index + 1}. #{val}" end
+    }"
   end
 end
 
